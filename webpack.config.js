@@ -5,7 +5,7 @@ module.exports = {
   entry: './lessFuns.js', // 替换成你的入口文件路径
   mode: 'production',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, ''),
     filename: 'index.js',
     libraryTarget: 'umd',
     umdNamedDefine: true,
