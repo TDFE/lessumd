@@ -6,8 +6,7 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'lessFuns.js',
-    library: 'lessFuns',
+    filename: 'index.js',
     libraryTarget: 'umd',
     umdNamedDefine: true,
     globalObject: 'this', // 添加这一行
